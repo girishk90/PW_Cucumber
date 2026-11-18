@@ -1,0 +1,22 @@
+{
+  "name": "rs-pw-cucumber-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression_test":"npx cucumber-js",
+    "OptionSelection_test":"npx cucumber-js --tags '@OptionSelection'",
+    "InputData_test":"npx cucumber-js --tags '@InputData'",
+    "WindowHandling_test":"npx cucumber-js --tags '@WindowHandling'",
+    "Misc_test":"npx cucumber-js --tags '@Misc'"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.3.0"
+  }
+}
